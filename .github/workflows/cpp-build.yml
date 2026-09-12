@@ -18,7 +18,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y g++
 
       - name: Build C++ project
-        run: g++ -std=c++17 UniversityManagementSystem/main.cpp -o UniversityManagementSystem
+       run: g++ -std=c++17 UniversityManagementSystem/main.cpp -o ums_app
 
       - name: Verify build
         run: echo "C++ project built successfully."
